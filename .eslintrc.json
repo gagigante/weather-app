@@ -29,6 +29,7 @@
       "prettier"
   ],
   "rules": {
+    "import/no-duplicates": "off",
     "camelcase": "off",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
