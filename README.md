@@ -53,7 +53,7 @@ This project was developed with the following techs:
 
 ## 💻 Project
 
-This project is a simple app for weather forecast
+This project is a simple weather forecast application based on the user current location
 
 ## :runner: How to run
 
