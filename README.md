@@ -85,6 +85,9 @@ Start server
 When the server starts your will be able to run the app on your device through the expo app. So you will need to install it
 
 https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR
+
+<br />
+
 https://apps.apple.com/br/app/expo-client/id982107779
 
 
