@@ -6,17 +6,9 @@ import {
 import { MaterialIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 
-import {
-  Container,
-  Header,
-  Title,
-  BoldText,
-  Description,
-  Button,
-  ButtonText,
-} from './styles';
+import { Container, Button, ButtonText } from './styles';
 
-import LandingBackground from '../../assets/landing.png';
+import LandingBackground from '../../assets/landing.jpg';
 
 interface Region {
   latitude: number;
@@ -55,18 +47,6 @@ const Landing: React.FC = () => {
 
   return (
     <Container source={LandingBackground}>
-      <Header>
-        <Title>
-          Weather
-          {'\n'}
-          <BoldText>App</BoldText>
-        </Title>
-
-        <Description>
-          Take a look at the weather in your current location
-        </Description>
-      </Header>
-
       <Button onPress={handleNavigateToMain}>
         <ButtonText>Get weather data</ButtonText>
         <MaterialIcons name="arrow-forward" size={20} color="#FFF" />

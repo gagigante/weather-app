@@ -5,6 +5,6 @@ const apiClient = axios.create({
 });
 
 apiClient.defaults.params = {};
-apiClient.defaults.params.appid = '439686b83e15b450921ef8541567a577';
+apiClient.defaults.params.appid = 'YOUR_API_KEY';
 
 export default apiClient;

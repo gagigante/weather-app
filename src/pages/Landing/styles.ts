@@ -6,30 +6,12 @@ import { RectButton } from 'react-native-gesture-handler';
 export const Container = styled.ImageBackground`
   flex: 1;
   padding: 56px 18px;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   ${Platform.OS === 'ios' &&
   css`
     padding-top: ${getStatusBarHeight() + 56}px;
   `}
-`;
-
-export const Header = styled.View``;
-
-export const Title = styled.Text`
-  font-size: 34px;
-  font-family: 'Poppins_400Regular';
-`;
-
-export const BoldText = styled.Text`
-  font-family: 'Poppins_600SemiBold';
-  font-weight: bold;
-`;
-
-export const Description = styled.Text`
-  margin-top: 16px;
-  font-family: 'Poppins_400Regular';
-  font-size: 22px;
 `;
 
 export const Button = styled(RectButton)`

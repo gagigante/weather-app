@@ -23,7 +23,7 @@ const App: React.FC = () => {
   }
   return (
     <>
-      {/* <StatusBar style="auto" /> */}
+      <StatusBar style="light" translucent />
 
       <Routes />
     </>
